@@ -21,14 +21,7 @@ import redis.clients.jedis.Jedis;
 import javax.annotation.Resource;
 import java.util.*;
 
-/**
- * <p>
- *  前端控制器
- * </p>
- *
- * @author Jasper Zhan
- * @since 2021-11-26
- */
+
 @Controller
 public class ReviewSetController {
 

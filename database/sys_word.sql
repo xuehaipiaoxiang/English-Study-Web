@@ -1,18 +1,7 @@
-/*
- Navicat Premium Data Transfer
 
- Source Server         : root
- Source Server Type    : MySQL
- Source Server Version : 80026
- Source Host           : localhost:3306
- Source Schema         : bubei
+--  Navicat Premium Data Transfer
 
- Target Server Type    : MySQL
- Target Server Version : 80026
- File Encoding         : 65001
 
- Date: 26/11/2021 19:16:48
-*/
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;

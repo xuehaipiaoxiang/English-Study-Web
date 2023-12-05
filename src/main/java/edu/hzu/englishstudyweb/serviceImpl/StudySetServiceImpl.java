@@ -94,12 +94,7 @@ public class StudySetServiceImpl extends ServiceImpl<StudySetMapper, StudySet> i
          return Result.success(studySet);
      }
 
-    /**
-     *  背诵完单词后从单词集删除全部单词
-     * @param user_id  加入学习集的对象
-     * @return edu.hzu.englishstudyweb.util.Result>
-     * @author zxb
-     */
+
     @Override
     public Result deleteWord(Integer id) {
         Integer ans = studySetMapper.deleteSetWord(id);

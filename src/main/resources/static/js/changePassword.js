@@ -81,28 +81,30 @@ function enableRegister() {
     //     $("#register").attr("disabled", "disabled");
     //     $("#register").addClass('disable');
     // }
-    var tellReg=/^[1][3,4,5,7,8][0-9]{9}$/;
-    var passwordReg1 = /^\w{8,20}$/
-    var passwordReg2 = /.*\d+.*/
-    var passwordReg3 = /.*[a-zA-Z]+.*/
-    var codeReg = /^\d{6}$/
+    // var tellReg=/^[1][3,4,5,7,8][0-9]{9}$/;
+    // var passwordReg1 = /^\w{8,20}$/
+    // var passwordReg2 = /.*\d+.*/
+    // var passwordReg3 = /.*[a-zA-Z]+.*/
+    // var codeReg = /^\d{6}$/
+    //
+    // if (!tellReg.test($("#tell").val())) {
+    //     alert("手机号码格式不正确")
+    //     return
+    // } else if (!passwordReg1.test($("#password").val())) {
+    //     alert("密码长度需在8-20位之间")
+    // }else if (!passwordReg2.test($("#password").val())) {
+    //     alert("密码需包含数字")
+    // }else if (!passwordReg3.test($("#password").val())) {
+    //     alert("密码需包含字母")
+    // }else if (!($("#password").val() === $("#password_confirm").val())) {
+    //     alert("两次输入密码不一致")
+    // }else if (!codeReg.test($("#verification_code").val())) {
+    //     alert("验证码为6位数字")
+    // }else {
+    //     return true;
+    // }
+    // return false;
 
-    if (!tellReg.test($("#tell").val())) {
-        alert("手机号码格式不正确")
-        return
-    } else if (!passwordReg1.test($("#password").val())) {
-        alert("密码长度需在8-20位之间")
-    }else if (!passwordReg2.test($("#password").val())) {
-        alert("密码需包含数字")
-    }else if (!passwordReg3.test($("#password").val())) {
-        alert("密码需包含字母")
-    }else if (!($("#password").val() === $("#password_confirm").val())) {
-        alert("两次输入密码不一致")
-    }else if (!codeReg.test($("#verification_code").val())) {
-        alert("验证码为6位数字")
-    }else {
-        return true;
-    }
-    return false;
+    return true;
 }
 
